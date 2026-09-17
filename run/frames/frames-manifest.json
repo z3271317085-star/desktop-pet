@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": [
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\00.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\01.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\02.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\03.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\04.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\05.png"
+      ],
+      "method": "slots"
+    },
+    {
+      "state": "running-right",
+      "frames": [
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\00.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\01.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\02.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\03.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\04.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\05.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\06.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\07.png"
+      ],
+      "method": "slots"
+    },
+    {
+      "state": "running-left",
+      "frames": [
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\00.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\01.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\02.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\03.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\04.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\05.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\06.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "waving",
+      "frames": [
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waving\\00.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waving\\01.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waving\\02.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waving\\03.png"
+      ],
+      "method": "slots"
+    },
+    {
+      "state": "jumping",
+      "frames": [
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\jumping\\00.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\jumping\\01.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\jumping\\02.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\jumping\\03.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\jumping\\04.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "failed",
+      "frames": [
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\00.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\01.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\02.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\03.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\04.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\05.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\06.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "waiting",
+      "frames": [
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\00.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\01.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\02.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\03.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\04.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\05.png"
+      ],
+      "method": "slots"
+    },
+    {
+      "state": "running",
+      "frames": [
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\00.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\01.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\02.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\03.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\04.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\05.png"
+      ],
+      "method": "slots"
+    },
+    {
+      "state": "review",
+      "frames": [
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\00.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\01.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\02.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\03.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\04.png",
+        "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\05.png"
+      ],
+      "method": "slots"
+    }
+  ]
+}

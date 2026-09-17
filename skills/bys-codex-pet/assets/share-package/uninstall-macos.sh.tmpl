@@ -1,0 +1,24 @@
+#!/bin/sh
+set -eu
+
+PET_ID='{{PET_ID}}'
+if [ "${1:-}" != "--yes" ]; then
+  echo '为避免误删，卸载时必须显式传入 --yes。' >&2
+  exit 1
+fi
+
+CODEX_HOME_DIR=${CODEX_HOME:-"$HOME/.codex"}
+mkdir -p "$CODEX_HOME_DIR/pets"
+PETS_ROOT=$(CDPATH= cd -- "$CODEX_HOME_DIR/pets" && pwd -P)
+TARGET="$PETS_ROOT/$PET_ID"
+case "$TARGET" in
+  "$PETS_ROOT"/*) ;;
+  *) echo '安全检查失败：目标目录不在 Codex pets 目录中。' >&2; exit 1 ;;
+esac
+
+if [ -e "$TARGET" ]; then
+  rm -rf -- "$TARGET"
+  echo "已卸载 {{DISPLAY_NAME}}：$TARGET"
+else
+  echo "没有找到已安装桌宠：$TARGET"
+fi

@@ -1,0 +1,34 @@
+param([switch]$Force)
+
+$ErrorActionPreference = 'Stop'
+$PetId = '{{PET_ID}}'
+$ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$SourceDir = Join-Path $ScriptDir 'pet'
+$SourceJson = Join-Path $SourceDir 'pet.json'
+$SourceSheet = Join-Path $SourceDir 'spritesheet.webp'
+
+if (-not (Test-Path -LiteralPath $SourceJson -PathType Leaf) -or -not (Test-Path -LiteralPath $SourceSheet -PathType Leaf)) {
+    throw '分享包不完整：pet 文件夹必须同时包含 pet.json 和 spritesheet.webp。'
+}
+
+$CodexHome = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $HOME '.codex' }
+$PetsRoot = [IO.Path]::GetFullPath((Join-Path $CodexHome 'pets')).TrimEnd([IO.Path]::DirectorySeparatorChar, [IO.Path]::AltDirectorySeparatorChar)
+$Target = [IO.Path]::GetFullPath((Join-Path $PetsRoot $PetId))
+$Prefix = $PetsRoot + [IO.Path]::DirectorySeparatorChar
+if (-not $Target.StartsWith($Prefix, [StringComparison]::OrdinalIgnoreCase)) {
+    throw '安全检查失败：目标目录不在 Codex pets 目录中。'
+}
+
+New-Item -ItemType Directory -Force -Path $PetsRoot | Out-Null
+if (Test-Path -LiteralPath $Target) {
+    if (-not $Force) {
+        throw "桌宠已存在：$Target。确认替换时请使用 -Force。"
+    }
+    Remove-Item -LiteralPath $Target -Recurse -Force
+}
+
+New-Item -ItemType Directory -Path $Target | Out-Null
+Copy-Item -LiteralPath $SourceJson -Destination (Join-Path $Target 'pet.json')
+Copy-Item -LiteralPath $SourceSheet -Destination (Join-Path $Target 'spritesheet.webp')
+Write-Output "已安装 {{DISPLAY_NAME}}：$Target"
+Write-Output '请打开 设置 > Pets，选择 Refresh，然后选择新桌宠并使用 /pet 唤醒。'

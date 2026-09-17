@@ -1,0 +1,22 @@
+param([switch]$Yes)
+
+$ErrorActionPreference = 'Stop'
+$PetId = '{{PET_ID}}'
+if (-not $Yes) {
+    throw '为避免误删，卸载时必须显式传入 -Yes。'
+}
+
+$CodexHome = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $HOME '.codex' }
+$PetsRoot = [IO.Path]::GetFullPath((Join-Path $CodexHome 'pets')).TrimEnd([IO.Path]::DirectorySeparatorChar, [IO.Path]::AltDirectorySeparatorChar)
+$Target = [IO.Path]::GetFullPath((Join-Path $PetsRoot $PetId))
+$Prefix = $PetsRoot + [IO.Path]::DirectorySeparatorChar
+if (-not $Target.StartsWith($Prefix, [StringComparison]::OrdinalIgnoreCase)) {
+    throw '安全检查失败：目标目录不在 Codex pets 目录中。'
+}
+
+if (Test-Path -LiteralPath $Target) {
+    Remove-Item -LiteralPath $Target -Recurse -Force
+    Write-Output "已卸载 {{DISPLAY_NAME}}：$Target"
+} else {
+    Write-Output "没有找到已安装桌宠：$Target"
+}

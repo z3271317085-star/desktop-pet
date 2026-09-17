@@ -1,0 +1,78 @@
+# {{DISPLAY_NAME}} · Codex 桌宠安装说明
+
+这是一个由「不一书桌宠生成器」导出的 Codex v2 桌宠。
+
+> {{DESCRIPTION}}
+
+{{INSTALL_LINK_SECTION}}
+
+## Windows 安装
+
+1. 解压整个分享包，不要只单独取出图片。
+2. 右键打开 PowerShell，进入解压后的目录。
+3. 运行：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\install-windows.ps1
+```
+
+如果已存在同 id 桌宠并且你确认要替换，使用：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\install-windows.ps1 -Force
+```
+
+## macOS 安装
+
+1. 解压整个分享包。
+2. 在终端进入解压后的目录。
+3. 运行：
+
+```bash
+chmod +x ./install-macos.sh
+./install-macos.sh
+```
+
+如果已存在同 id 桌宠并且你确认要替换，使用：
+
+```bash
+./install-macos.sh --force
+```
+
+## 在 Codex 中启用
+
+1. 打开 **设置 > Pets**。
+2. 选择 **Refresh**。
+3. 选择 **{{DISPLAY_NAME}}**。
+4. 输入 `/pet`，或在命令菜单中选择 **Wake Pet**。
+
+如果没有 Pets 页面，请先更新 Codex/ChatGPT 桌面端。
+
+## 手动安装
+
+把 `pet` 文件夹里的 `pet.json` 和 `spritesheet.webp` 复制到：
+
+```text
+Windows: %CODEX_HOME%\pets\{{PET_ID}}
+未设置 CODEX_HOME 时: %USERPROFILE%\.codex\pets\{{PET_ID}}
+
+macOS: $CODEX_HOME/pets/{{PET_ID}}
+未设置 CODEX_HOME 时: ~/.codex/pets/{{PET_ID}}
+```
+
+## 卸载
+
+Windows：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\uninstall-windows.ps1 -Yes
+```
+
+macOS：
+
+```bash
+chmod +x ./uninstall-macos.sh
+./uninstall-macos.sh --yes
+```
+
+卸载后返回 **设置 > Pets** 刷新列表。

@@ -1,0 +1,987 @@
+{
+  "ok": true,
+  "frames_root": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames",
+  "errors": [],
+  "warnings": [
+    "idle used extraction method slots; component extraction is preferred",
+    "running-right used extraction method slots; component extraction is preferred",
+    "running-left frame 00 is much smaller than the row median (2308 vs 8876)",
+    "waving used extraction method slots; component extraction is preferred",
+    "failed used extraction method slots; component extraction is preferred",
+    "waiting used extraction method slots; component extraction is preferred",
+    "running used extraction method slots; component extraction is preferred",
+    "review used extraction method slots; component extraction is preferred"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "idle used extraction method slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5083,
+          "bbox": [
+            78,
+            5,
+            113,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 204
+        },
+        {
+          "index": 1,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2365,
+          "bbox": [
+            77,
+            5,
+            115,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 174
+        },
+        {
+          "index": 2,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6035,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 158
+        },
+        {
+          "index": 3,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6286,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 134
+        },
+        {
+          "index": 4,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2188,
+          "bbox": [
+            77,
+            5,
+            115,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 166
+        },
+        {
+          "index": 5,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\idle\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5525,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 212
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2194,
+          "bbox": [
+            83,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 142
+        },
+        {
+          "index": 1,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 4328,
+          "bbox": [
+            82,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 154
+        },
+        {
+          "index": 2,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2632,
+          "bbox": [
+            81,
+            5,
+            110,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 200
+        },
+        {
+          "index": 3,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 4803,
+          "bbox": [
+            82,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 125
+        },
+        {
+          "index": 4,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 4224,
+          "bbox": [
+            82,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 134
+        },
+        {
+          "index": 5,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 3449,
+          "bbox": [
+            81,
+            5,
+            110,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 175
+        },
+        {
+          "index": 6,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 3378,
+          "bbox": [
+            82,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 154
+        },
+        {
+          "index": 7,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-right\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 3207,
+          "bbox": [
+            83,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 142
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left frame 00 is much smaller than the row median (2308 vs 8876)"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2308,
+          "bbox": [
+            80,
+            5,
+            112,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 178
+        },
+        {
+          "index": 1,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12059,
+          "bbox": [
+            44,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 814
+        },
+        {
+          "index": 2,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10803,
+          "bbox": [
+            50,
+            5,
+            141,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 560
+        },
+        {
+          "index": 3,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14046,
+          "bbox": [
+            43,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 713
+        },
+        {
+          "index": 4,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9691,
+          "bbox": [
+            61,
+            5,
+            131,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 301
+        },
+        {
+          "index": 5,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6132,
+          "bbox": [
+            69,
+            5,
+            122,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 291
+        },
+        {
+          "index": 6,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8060,
+          "bbox": [
+            65,
+            5,
+            127,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 436
+        },
+        {
+          "index": 7,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7680,
+          "bbox": [
+            68,
+            5,
+            124,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 343
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waving used extraction method slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waving\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6425,
+          "bbox": [
+            75,
+            5,
+            117,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 172
+        },
+        {
+          "index": 1,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waving\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9841,
+          "bbox": [
+            69,
+            5,
+            123,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 192
+        },
+        {
+          "index": 2,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waving\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10069,
+          "bbox": [
+            68,
+            5,
+            123,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 197
+        },
+        {
+          "index": 3,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waving\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5138,
+          "bbox": [
+            71,
+            5,
+            121,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 141
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15296,
+          "bbox": [
+            41,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 965
+        },
+        {
+          "index": 1,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 11383,
+          "bbox": [
+            47,
+            5,
+            144,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 783
+        },
+        {
+          "index": 2,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13398,
+          "bbox": [
+            48,
+            5,
+            143,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 905
+        },
+        {
+          "index": 3,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12279,
+          "bbox": [
+            50,
+            5,
+            142,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 790
+        },
+        {
+          "index": 4,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15313,
+          "bbox": [
+            42,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 970
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "failed used extraction method slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2194,
+          "bbox": [
+            83,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 142
+        },
+        {
+          "index": 1,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 4328,
+          "bbox": [
+            82,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 154
+        },
+        {
+          "index": 2,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2632,
+          "bbox": [
+            81,
+            5,
+            110,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 200
+        },
+        {
+          "index": 3,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 4803,
+          "bbox": [
+            82,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 125
+        },
+        {
+          "index": 4,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 4224,
+          "bbox": [
+            82,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 134
+        },
+        {
+          "index": 5,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 3449,
+          "bbox": [
+            81,
+            5,
+            110,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 175
+        },
+        {
+          "index": 6,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 3378,
+          "bbox": [
+            82,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 154
+        },
+        {
+          "index": 7,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 3207,
+          "bbox": [
+            83,
+            5,
+            109,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 142
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waiting used extraction method slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5083,
+          "bbox": [
+            78,
+            5,
+            113,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 204
+        },
+        {
+          "index": 1,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2365,
+          "bbox": [
+            77,
+            5,
+            115,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 174
+        },
+        {
+          "index": 2,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6035,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 158
+        },
+        {
+          "index": 3,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6286,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 134
+        },
+        {
+          "index": 4,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2188,
+          "bbox": [
+            77,
+            5,
+            115,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 166
+        },
+        {
+          "index": 5,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\waiting\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5525,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 212
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running used extraction method slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5083,
+          "bbox": [
+            78,
+            5,
+            113,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 204
+        },
+        {
+          "index": 1,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2365,
+          "bbox": [
+            77,
+            5,
+            115,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 174
+        },
+        {
+          "index": 2,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6035,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 158
+        },
+        {
+          "index": 3,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6286,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 134
+        },
+        {
+          "index": 4,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2188,
+          "bbox": [
+            77,
+            5,
+            115,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 166
+        },
+        {
+          "index": 5,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\running\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5525,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 212
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "review used extraction method slots; component extraction is preferred"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5083,
+          "bbox": [
+            78,
+            5,
+            113,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 204
+        },
+        {
+          "index": 1,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2365,
+          "bbox": [
+            77,
+            5,
+            115,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 174
+        },
+        {
+          "index": 2,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6035,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 158
+        },
+        {
+          "index": 3,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 6286,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 134
+        },
+        {
+          "index": 4,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 2188,
+          "bbox": [
+            77,
+            5,
+            115,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 166
+        },
+        {
+          "index": 5,
+          "file": "E:\\AntigravityWorkspace\\Project4_\u684c\u9762\u5ba0\u7269\\run\\frames\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 5525,
+          "bbox": [
+            78,
+            5,
+            114,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 212
+        }
+      ]
+    }
+  ]
+}

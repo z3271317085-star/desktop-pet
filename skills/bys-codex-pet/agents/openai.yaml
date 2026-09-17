@@ -1,0 +1,4 @@
+interface:
+  display_name: "不一书桌宠生成器"
+  short_description: "用照片或角色想法分阶段制作、安装并分享 Codex 桌宠"
+  default_prompt: "使用 $bys-codex-pet 初始化不一书桌宠生成器，默认用中文带我分阶段制作、安装并分享一只 Codex 桌宠。"

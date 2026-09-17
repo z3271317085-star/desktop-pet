@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "generator": "bys-codex-pet",
+  "language": "zh-CN",
+  "project_id": "project4-pet",
+  "pet_name": "",
+  "pet_id": "",
+  "stage": "intake",
+  "mode": "guided",
+  "reference_images": [],
+  "character_brief": "",
+  "style_preset": "auto",
+  "style_notes": "",
+  "consent_confirmed": false,
+  "runtime": {
+    "mode": "system-verified",
+    "python": "python",
+    "python_version": "3.11.15",
+    "pillow_version": "12.3.0",
+    "compatibility_consent": true
+  },
+  "checkpoints": {
+    "character_approved": false,
+    "motion_approved": false,
+    "final_approved": false
+  },
+  "paths": {
+    "hatch_run": "",
+    "canonical_base": "",
+    "standard_contact_sheet": "",
+    "final_contact_sheet": "",
+    "installed_pet_dir": "",
+    "share_package": ""
+  },
+  "next_action": "收集角色设定和参考图片",
+  "updated_at": "2026-07-19T06:59:03Z"
+}

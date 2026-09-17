@@ -1,0 +1,38 @@
+#!/bin/sh
+set -eu
+
+PET_ID='{{PET_ID}}'
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)
+SOURCE_DIR="$SCRIPT_DIR/pet"
+SOURCE_JSON="$SOURCE_DIR/pet.json"
+SOURCE_SHEET="$SOURCE_DIR/spritesheet.webp"
+
+if [ ! -f "$SOURCE_JSON" ] || [ ! -f "$SOURCE_SHEET" ]; then
+  echo '分享包不完整：pet 文件夹必须同时包含 pet.json 和 spritesheet.webp。' >&2
+  exit 1
+fi
+
+CODEX_HOME_DIR=${CODEX_HOME:-"$HOME/.codex"}
+mkdir -p "$CODEX_HOME_DIR/pets"
+PETS_ROOT=$(CDPATH= cd -- "$CODEX_HOME_DIR/pets" && pwd -P)
+TARGET="$PETS_ROOT/$PET_ID"
+case "$TARGET" in
+  "$PETS_ROOT"/*) ;;
+  *) echo '安全检查失败：目标目录不在 Codex pets 目录中。' >&2; exit 1 ;;
+esac
+
+FORCE=0
+if [ "${1:-}" = "--force" ]; then FORCE=1; fi
+if [ -e "$TARGET" ]; then
+  if [ "$FORCE" -ne 1 ]; then
+    echo "桌宠已存在：$TARGET。确认替换时请使用 --force。" >&2
+    exit 1
+  fi
+  rm -rf -- "$TARGET"
+fi
+
+mkdir -p "$TARGET"
+cp "$SOURCE_JSON" "$TARGET/pet.json"
+cp "$SOURCE_SHEET" "$TARGET/spritesheet.webp"
+echo "已安装 {{DISPLAY_NAME}}：$TARGET"
+echo '请打开 设置 > Pets，选择 Refresh，然后选择新桌宠并使用 /pet 唤醒。'
