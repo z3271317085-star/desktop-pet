@@ -73,18 +73,24 @@ class DesktopPet(QWidget):
         self.setAttribute(Qt.WA_TranslucentBackground, True)
         self.setStyleSheet("background: transparent;")
         
-        # Resolve skin directory (苗疆皮肤，且不显示皮肤名称)
+        # Resolve skin directory (支持 model 与 jiruxue_miaojiang)
         candidates = []
         if hasattr(sys, '_MEIPASS'):
+            candidates.append(os.path.join(sys._MEIPASS, "dist", "model", "pet.json"))
+            candidates.append(os.path.join(sys._MEIPASS, "model", "pet.json"))
             candidates.append(os.path.join(sys._MEIPASS, "dist", "jiruxue_miaojiang", "pet.json"))
             candidates.append(os.path.join(sys._MEIPASS, "jiruxue_miaojiang", "pet.json"))
         
         if getattr(sys, 'frozen', False):
             exe_dir = os.path.dirname(sys.executable)
+            candidates.append(os.path.join(exe_dir, "dist", "model", "pet.json"))
+            candidates.append(os.path.join(exe_dir, "model", "pet.json"))
             candidates.append(os.path.join(exe_dir, "dist", "jiruxue_miaojiang", "pet.json"))
             candidates.append(os.path.join(exe_dir, "jiruxue_miaojiang", "pet.json"))
 
         curr_dir = os.path.abspath(os.path.dirname(__file__))
+        candidates.append(os.path.join(curr_dir, "dist", "model", "pet.json"))
+        candidates.append(os.path.join(curr_dir, "model", "pet.json"))
         candidates.append(os.path.join(curr_dir, "dist", "jiruxue_miaojiang", "pet.json"))
         candidates.append(os.path.join(curr_dir, "jiruxue_miaojiang", "pet.json"))
 
@@ -95,7 +101,7 @@ class DesktopPet(QWidget):
                 break
         
         if not skin_path:
-            skin_path = os.path.join(curr_dir, "dist", "jiruxue_miaojiang", "pet.json")
+            skin_path = os.path.join(curr_dir, "dist", "model", "pet.json")
 
         self.config = PetConfig(skin_path)
         self.setWindowTitle("桌面宠物")

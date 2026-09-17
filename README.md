@@ -1,4 +1,4 @@
-﻿# 🐾 轻量化桌面互动伴侣客户端 (Desktop Pet)
+# 🐾 轻量化桌面互动伴侣客户端 (Desktop Pet)
 
 基于 **Python** 与 **PySide6 (Qt6)** 打造的高性能、沉浸式桌面交互宠物伴侣应用。支持 Windows 桌面无边框异形透明渲染、拟真重力模拟、边缘碰撞感知、多状态有限状态机（FSM）动作管理以及自主漫步 AI。
 
@@ -46,15 +46,15 @@
 ## 📂 项目目录结构
 
 ```text
-Project4_桌面宠物/
+desktop-pet/
 ├── pet_player.py               # 核心主程序（PySide6 状态机与交互控制器）
 ├── dialogues.txt               # 外部台词文本库（可自由新增/修改台词）
 ├── README.md                   # 完整使用与开发说明文档
 ├── LICENSE                     # 开源协议
 ├── dist/                       # 发行包与独立运行资源
-│   ├── JiRuxue_Pet.exe         # ★ 独立单文件可执行程序（双击直接运行）
+│   ├── pet.exe                 # ★ 独立单文件可执行程序（双击直接运行）
 │   ├── dialogues.txt           # 发行目录配套台词
-│   └── jiruxue_miaojiang/      # 皮肤资产包
+│   └── model/                  # 角色模型与动画资产包
 │       ├── pet.json            # 动作帧数、行列与尺寸布局配置
 │       ├── spritesheet.png     # 高清动画精灵图
 │       └── spritesheet.webp    # 高压缩比 WebP 动画精灵图
@@ -71,7 +71,7 @@ Project4_桌面宠物/
 ### 方式一：独立 Exe 双击即用（推荐，无需 Python）
 进入 `dist/` 文件夹，直接双击运行：
 ```text
-dist/JiRuxue_Pet.exe
+dist/pet.exe
 ```
 
 ### 方式二：Python 源码运行
@@ -102,13 +102,13 @@ dist/JiRuxue_Pet.exe
 ### 2. 重新编译打包 EXE
 若对 `pet_player.py` 进行了代码修改，可使用 `PyInstaller` 重新编译生成单文件程序：
 ```bash
-pyinstaller --clean --noconfirm --onefile --windowed --name JiRuxue_Pet \
-  --add-data "dist\jiruxue_miaojiang\pet.json;dist\jiruxue_miaojiang" \
-  --add-data "dist\jiruxue_miaojiang\spritesheet.webp;dist\jiruxue_miaojiang" \
-  --add-data "dist\jiruxue_miaojiang\spritesheet.png;dist\jiruxue_miaojiang" \
+pyinstaller --clean --noconfirm --onefile --windowed --name pet \
+  --add-data "dist\model\pet.json;dist\model" \
+  --add-data "dist\model\spritesheet.webp;dist\model" \
+  --add-data "dist\model\spritesheet.png;dist\model" \
   --add-data "dist\dialogues.txt;dist" pet_player.py
 ```
-编译产物将自动输出至 `dist/JiRuxue_Pet.exe`。
+编译产物将自动输出至 `dist/pet.exe`。
 
 ---
 
